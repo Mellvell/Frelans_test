@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+
+    img {
+        max-width: 100%;
+    }
+
+    .nav_list {
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+        position: fixed;
+        z-index: 9;
+        top: 46px;
+        right: 30px;
+    }
+
+    .nav.open .nav_list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background: #FFFFFF;
+        padding: 46px 30px;
+    }
+
+    .nav_link {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 51px;
+        color: #828282;
+    }
+
+    .nav_link:hover {
+        color: #000;
+    }
+
+    .header_content {
+        flex-direction: column;
+    }
+
+    .header-nav {
+        margin-bottom: 0;
+    }
+
+    .header_title {
+        font-size: 1.8em;
+        line-height: 1.4    ;
+    }
+
+    .header_title span {
+        font-size: 1.2em;
+    }
+
+    .header_text {
+        padding-top: 53px;
+        margin-bottom: 20px;
+    }
+
+    .header_pic {
+        text-align: center;
+    }
+
+    .header_pic img {
+        max-width: 100%;
+    }
+
+    .services_wrap {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 60px 0;
+    }
+
+    .portfolio_title {
+        margin-bottom: 50px;
+    }
+
+    .project {
+        margin-bottom: 55px;
+    }
+
+    .project-pic {
+        margin-bottom: 30px;
+    }
+
+    .contact {
+        padding: 60px 0;
+    }
+
+    .contact-title {
+        margin-bottom: 20px;
+    }
+
+    .contact-content {
+        margin-bottom: 20px;
+    }
+
+    .contact-button {
+        margin-bottom: 70px;
+    }
+
+    .contact-social {
+        column-gap: 50px;
+        margin-bottom: 20px;
+    }
+}
